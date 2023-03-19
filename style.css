@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #131313;
+}
+
+.wrapper .sidebar{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    /* top: 400px; */
+}
+
+/* .wrapper .sidebar .profile img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+} */
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    font-size: 40px;
+    position: relative;
+    top: 150px;
+    /* left: 1px; */
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    position: relative;
+    top: 150px;
+    font-size: 24px;
+}
+
+.wrapper .sidebar ul li a{
+    /* top: 30px; */
+    position: relative;
+    top: 20px;
+    text-align: left;
+    left: 40px;
+    display: block;
+    padding: 13px 30px;
+    /* border-bottom: 1px solid #10558d; */
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    /* position: relative; */
+}
+
+.wrapper .sidebar ul li a .icon{
+    /* color: #ced6e1; */
+    /* background-color: white; */
+    position: relative;
+    /* align-items: flex-start; */
+    top: 200px;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a .item{
+    font-size: 22px;
+    position: relative;
+    /* align-items: flex-start; */
+    text-align: left;
+    top: 200px;
+}
+
