@@ -226,7 +226,7 @@ body{
   
   .typewriter::before {
     content: "";
-    animation: typing 10.5s infinite;
+    animation: typing 13.5s infinite;
   }
   
   .typewriter::after {
