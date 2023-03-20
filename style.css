@@ -11,7 +11,7 @@
 
 body{
     /* overflow: hidden; */
-    background: #131313;
+    background: #131313;;
 }
 
 .wrapper .sidebar{
@@ -93,7 +93,7 @@ body{
 
     position: relative;
     left: 480px;
-    top: 200px;
+    top: 300px;
     border: 10px solid grey;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -110,7 +110,7 @@ body{
 .contain {
     position: relative;
     left: 800px;
-    bottom: 110px;
+    bottom: 10px;
     width: 600px;
     height: 500px;
     /* border: 2px solid red ; */
@@ -170,7 +170,7 @@ body{
     color: white;
     text-align: left;
     left: 810px;
-    bottom: 528px;
+    bottom: 428px;
     position: relative;
     font-family: Lato, sans-serif;
     font-weight: 700;
