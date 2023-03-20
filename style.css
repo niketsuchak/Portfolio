@@ -10,7 +10,7 @@
 }
 
 body{
-    /* overflow: hidden; */
+    overflow: hidden;
     background: #131313;;
 }
 
@@ -60,7 +60,8 @@ body{
 .wrapper .sidebar ul li a{
     /* top: 30px; */
     position: relative;
-    top: 20px;
+    top: 220px;
+    /* border: 2px solid red; */
     text-align: left;
     left: 30px;
     display: block;
@@ -76,7 +77,7 @@ body{
     /* background-color: white; */
     position: relative;
     /* align-items: flex-start; */
-    top: 200px;
+    /* top: 20px; */
     width: 30px;
     display: inline-block;
 }
@@ -86,14 +87,14 @@ body{
     position: relative;
     /* align-items: flex-start; */
     text-align: left;
-    top: 200px;
+    /* top: 50px; */
 }
 
 .images .img1{
 
     position: relative;
     left: 480px;
-    top: 300px;
+    top: 200px;
     border: 10px solid grey;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -110,7 +111,7 @@ body{
 .contain {
     position: relative;
     left: 800px;
-    bottom: 10px;
+    bottom: 110px;
     width: 600px;
     height: 500px;
     /* border: 2px solid red ; */
@@ -170,7 +171,7 @@ body{
     color: white;
     text-align: left;
     left: 810px;
-    bottom: 428px;
+    bottom: 528px;
     position: relative;
     font-family: Lato, sans-serif;
     font-weight: 700;
