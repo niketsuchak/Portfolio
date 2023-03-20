@@ -10,7 +10,7 @@
 }
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #131313;;
 }
 
@@ -171,11 +171,13 @@ body{
     color: white;
     text-align: left;
     left: 810px;
+    width: 500px;
     bottom: 528px;
     position: relative;
     font-family: Lato, sans-serif;
     font-weight: 700;
     margin: 1rem 0 1rem 2rem;
+    /* border: 2px solid red; */
   }
   
   /* TypeWriter effect 1 */
