@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
-<body>
+<body class="contact">
     <div class="wrapper">
         <!--Top menu -->
         <div class="sidebar">
@@ -59,9 +59,47 @@
             <!--menu item-->
         </div>
      </div>
+
     </div>
 
-
+    <div class="conatc">
+        <div class="box">
+            <h3>Contact</h3>
+        </div>
+        <h1 id="touch">Get In Touch</h1>
+        <div class="map">
+            <div style="max-width:100%;overflow:hidden;position:relative;left:490px;top:200px;color:black;width:900px;height:380px;">
+                <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;filter: invert(90%); width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=vellore+institute+of+technology&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+            </div>
+        </div>
+        <div class="msg">
+            <form>
+                <input type="text" class="Name123" placeholder="Name">
+                <br>
+                <br>
+                <input type="email" class="Email123" placeholder="Email">
+                <br>
+                <br>
+                <textarea class="comment" rows="5"  name="text" placeholder="Message"></textarea>
+            </form>
+            <br>
+            <br>
+            <button type="button" class="SendMsg">Send Message</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
 
 </body>
 </html>
