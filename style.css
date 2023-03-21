@@ -10,7 +10,8 @@
 }
 
 body{
-    background: #131313;;
+    background: #131313;
+    height: 100%;
 }
 
 .home{
@@ -312,3 +313,40 @@ body{
     top: 5px;
   }
 
+.contac {
+  border: 2px solid blue;
+  position: relative;
+  width: 80px;
+  top: 100px;
+}
+
+.box {
+  /* border: 2px solid red; */
+  width: 95px;
+  height: 30px;
+  top: 150px;
+  left: 490px;
+  position: relative;
+  color: #cccccc;
+  background-color: rgb(65, 65, 65);
+  text-align: center;
+}
+
+#touch {
+  position: relative;
+  /* border: 2px solid red; */
+  width: 250px;
+  color: #ffffff;
+  left: 490px;
+  top: 160px;
+
+}
+
+/* #map {
+  height: 100%;
+  position: absolute;
+  left: 490px;
+  border: 2px solid red;
+
+
+} */
