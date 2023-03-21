@@ -808,7 +808,7 @@ body{
   }
 
   .container2{
-    border: solid red;
+    /* border: solid red; */
     border-width: 2px;
     height: 500px;
     width: 900px;
@@ -830,7 +830,7 @@ body{
   }
 
 .contac {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   position: relative;
   width: 80px;
   top: 100px;
