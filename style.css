@@ -296,7 +296,7 @@ body{
   }
 
   .container2{
-    border: solid red;
+    /* border: solid red; */
     border-width: 2px;
     height: 500px;
     width: 900px;
@@ -327,12 +327,16 @@ body{
 
 .myself{
   color: #bbb;
-  font-size: 14.4px;
+  font-size: 15px;
+  line-height: 23px;
+  word-spacing: 0.2em;
 }
 
 .myself2{
   color: #bbb;
-  font-size: 14.4px;
+  font-size: 15px;
+  line-height: 23px;
+  word-spacing: 0.2em;
 }
 
 .myinfo{
@@ -431,4 +435,84 @@ position: relative;
   
 }
 
+.infox{
+color: white;
+position: relative;
+}
 
+.infox ul li .aa{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 495px;
+
+}
+.infox ul li .bb{
+  position: absolute;
+  left: 645px;
+  color: #bbb;
+
+}
+
+.infox ul li .cc{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 30px;
+  left: 495px;
+}
+
+.infox ul li .dd{
+  position: absolute;
+  left: 645px;
+  top: 30px;
+  color: #bbb;
+}
+
+.infox ul li .ee{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 60px;
+  left: 495px;
+}
+
+.infox ul li .ff{
+  position: absolute;
+  left: 645px;
+  top: 60px;
+  color: #bbb;
+}
+
+.infox ul li .gg{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 90px;
+  left: 495px;
+}
+
+.infox ul li .hh{
+  position: absolute;
+  left: 645px;
+  top: 90px;
+  color: #bbb;
+}
+
+.infox ul li .ii{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 120px;
+  left: 495px;
+}
+
+.infox ul li .jj{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 120px;
+  left: 645px;
+  color: #bbb;
+  
+}
