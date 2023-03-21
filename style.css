@@ -324,3 +324,111 @@ body{
   font-size: 15px;
   text-align: center;
 }
+
+.myself{
+  color: #bbb;
+  font-size: 14.4px;
+}
+
+.myself2{
+  color: #bbb;
+  font-size: 14.4px;
+}
+
+.myinfo{
+  color: white;
+}
+
+.birthday{
+  height: 30px;
+  width: 100px;
+}
+
+.date{
+  height: 19px;
+  width: 34px;
+  top: 120px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.info{
+color: white;
+position: relative;
+}
+
+.info ul li .a{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+
+}
+.info ul li .b{
+  position: absolute;
+  color: #bbb;
+  left: 150px;
+
+}
+
+.info ul li .c{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 30px;
+}
+
+.info ul li .d{
+  position: absolute;
+  left: 150px;
+  color: #bbb;
+  top: 30px;
+}
+
+.info ul li .e{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 60px;
+}
+
+.info ul li .f{
+  position: absolute;
+  left: 150px;
+  color: #bbb;
+  top: 60px;
+}
+
+.info ul li .g{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 90px;
+}
+
+.info ul li .h{
+  position: absolute;
+  left: 150px;
+  color: #bbb;
+  top: 90px;
+}
+
+.info ul li .i{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 120px;
+}
+
+.info ul li .j{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 120px;
+  color: #bbb;
+  left: 150px;
+  
+}
+
+
