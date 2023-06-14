@@ -24,6 +24,8 @@ body {
   background-position: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   animation: blob 3.7s linear infinite;
+  position: relative;
+  top: 100px;
 }
 .blob:hover {
   background-image: url("../images/1.jpeg");
@@ -185,7 +187,8 @@ body {
 
 .hc2 {
   font-weight: bold;
-
+  top: 50px;
+  position: relative;
   color: grey;
   font-size: 20px;
 }
