@@ -14,9 +14,10 @@ body {
   height: 100%;
 }
 .blob {
-  width: 400px;
-  height: 400px;
-
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 150px;
   overflow: hidden;
   border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   background-image: url("../images/1-dark.jpeg");
@@ -175,17 +176,20 @@ body {
 }
 
 .nam {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
-
+  top: 150px;
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 1rem 0 1rem 2rem;
+
 }
 
 .hc2 {
   font-weight: bold;
-
+  top: 400px;
+  left: 510px;
+  position: absolute;
   color: grey;
   font-size: 20px;
 }
