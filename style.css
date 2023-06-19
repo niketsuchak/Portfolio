@@ -25,6 +25,8 @@ body {
   background-position: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   animation: blob 3.7s linear infinite;
+  position: relative;
+  top: 100px;
 }
 .blob:hover {
   background-image: url("../images/1.jpeg");
@@ -187,9 +189,7 @@ body {
 
 .hc2 {
   font-weight: bold;
-  top: 400px;
-  left: 510px;
-  position: absolute;
+
   color: grey;
   font-size: 20px;
 }
@@ -964,13 +964,13 @@ body {
   text-align: center;
 }
 
-.porthead {
+/* .porthead {
   position: relative;
   left: 400px;
   top: 100px;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+} */
 
 .porthead h3 {
   color: #ffffff;
