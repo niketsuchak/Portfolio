@@ -180,7 +180,8 @@ body {
 .nam {
   font-size: 50px;
   color: white;
-  top: 150px;
+  position: absolute;
+  top: 10px;
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 1rem 0 1rem 2rem;

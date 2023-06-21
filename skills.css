@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 2rem;
+    font-family: poppins;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-section {
+    width: 100%;
+    /* max-width: 600px; */
+    border-radius: 15px;
+    background: #333;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    width: 800px;
+    
+  }
+  .progress-section .task-progress {
+    margin: 1.5rem 0;
+  }
+  .progress-section .task-progress p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+  }
+  .progress-section span {
+    color: #eee;
+  }
+  .progress-section .progress {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    height: 10px;
+  }
+  .progress-section .progress::-webkit-progress-bar {
+    background-color: #111;
+  }
+  .progress-section .progress::-webkit-progress-bar,
+  .progress-section .progress::-webkit-progress-value {
+    border-radius: 10px;
+  }
+  .progress-section .progress::-moz-progress-bar {
+    border-radius: 10px;
+  }
+  .progress-section .progress1::-webkit-progress-value {
+    background: #ddd;
+  }
+  .progress-section .progress2::-webkit-progress-value {
+    background: #eee;
+  }
+  .progress-section .progress3::-webkit-progress-value {
+    background: #ccc;
+  }

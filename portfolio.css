@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter';
+}
+
+/* body {
+  background: #0a0a0a;
+  padding: 2.5rem 3rem;
+} */
+
+ion-icon {
+  font-size: 18px;
+}
+
+
+
+.cardWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.card {
+  border: 2px solid #222222;
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(45deg, #141414, transparent);
+  position: relative;
+  left: 400px;
+  width: 400px;
+  top: 150px;
+  margin-top: 20px;
+}
+
+.card:hover{
+    outline: gold;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  background-color: #2563EB;
+  border-radius: 4px;
+  padding: 4px 0.6rem;
+  width: fit-content;
+}
+
+.radar-icon {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 2px;
+}
+
+.tag-text {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.date {
+  padding-right: 1px;
+  font-size: 14px;
+  line-height: 1;
+  color: #a9a9a9;
+}
+
+.card-title {
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-top: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-desc {
+  color: #a9a9a9;
+  margin-top: 8px;
+}
+
+.card-footer {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  color: #a9a9a9;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.author:hover {
+  color: #d8d8d8;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.author-name {
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.read-more {
+  border: 1px solid transparent;
+  color: #e1e7ef;
+  font-size: 14px;
+  text-underline-offset: 4px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  border: 1px solid transparent;
+  color: #fff;
+}
