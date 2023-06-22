@@ -63,3 +63,7 @@
   .progress-section .progress3::-webkit-progress-value {
     background: #ccc;
   }
+
+  .progress-section .progress4::-webkit-progress-value {
+    background: #ccc;
+  }

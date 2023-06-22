@@ -51,8 +51,10 @@ body {
   left: 30%;
   
 }
-/* .suchak2 {
-} */
+
+.suchak2{
+  width: 600px;
+}
 .home {
   overflow: hidden;
 }
@@ -181,18 +183,19 @@ body {
   font-size: 50px;
   color: white;
   position: absolute;
-  top: 10px;
+  bottom: 200px;
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 1rem 0 1rem 2rem;
-
 }
 
 .hc2 {
   font-weight: bold;
-
+  left:400px;
+  position: relative;
   color: grey;
   font-size: 20px;
+  bottom: 150px;
 }
 
 /* .type {
