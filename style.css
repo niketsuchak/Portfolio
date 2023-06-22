@@ -17,7 +17,6 @@ body {
   width: 350px;
   height: 350px;
   position: absolute;
-  top: 150px;
   overflow: hidden;
   border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   background-image: url("../images/1-dark.jpeg");
@@ -26,7 +25,7 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   animation: blob 3.7s linear infinite;
   position: relative;
-  top: 100px;
+  top: 170px;
 }
 .blob:hover {
   background-image: url("../images/1.jpeg");
@@ -54,6 +53,8 @@ body {
 
 .suchak2{
   width: 600px;
+  position: relative;
+  right:110px;
 }
 .home {
   overflow: hidden;
@@ -183,7 +184,8 @@ body {
   font-size: 50px;
   color: white;
   position: absolute;
-  bottom: 200px;
+  left: 400pfx;
+  bottom: 150px;
   font-family: Lato, sans-serif;
   font-weight: 700;
   margin: 1rem 0 1rem 2rem;
@@ -195,7 +197,8 @@ body {
   position: relative;
   color: grey;
   font-size: 20px;
-  bottom: 150px;
+  bottom: 100px;
+  width: 600px;
 }
 
 /* .type {
