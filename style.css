@@ -593,12 +593,12 @@ body {
 .nam {
   font-size: 60px;
   color: white;
-  text-align: left;
-  left: 480px;
-  position: relative;
+  position: absolute;
   font-family: Lato, sans-serif;
   font-weight: 700;
-  margin: 1rem 0 1rem 2rem;
+  left:62%;
+  top: 40%;
+  width: 100%;
 }
 
 /* .type {
